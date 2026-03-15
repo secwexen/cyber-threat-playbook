@@ -6,6 +6,28 @@
 
 A comprehensive Cyber Threat Playbook providing MITRE ATT&CK-based attack scenarios, detection rules, proof-of-concept (PoC) scripts, and lab walkthroughs.
 
+## About
+
+The **Cyber Threat Playbook** is an open-source, educational, and portfolio-focused repository for cybersecurity professionals.  
+It provides a structured collection of:
+
+- MITRE ATT&CK-based attack scenarios  
+- Sigma, YARA, and Suricata detection rules  
+- Proof-of-Concept (PoC) scripts  
+- Lab walkthroughs and practical exercises  
+
+This repository is designed to **demonstrate professional cybersecurity skills**, including threat hunting, incident response, and pentesting workflows, in a safe and controlled environment.
+
+## Overview
+
+**Cyber Threat Playbook** is organized to give users a clear and practical view of real-world cybersecurity workflows:
+
+- **Detection Rules:** Ready-to-use Sigma/YARA/Suricata rules for threat detection and analysis.  
+- **Scenarios:** Simulated attacks based on MITRE ATT&CK, including phishing, malware, and lateral movement exercises.  
+- **Labs:** Hands-on lab exercises with PoC scripts for testing and research in isolated environments.  
+- **Examples:** Sample outputs, screenshots, and logs to visualize results.  
+- **Docs & Tools:** Quick Start guides, architecture explanations, and optional helper scripts to support learning and experimentation.  
+
 ## Ethical Use
 
 All tools in this repository are developed **strictly for educational and ethical purposes**.  
