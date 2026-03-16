@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/github/license/secwexen/cyber-threat-playbook)](https://github.com/secwexen/cyber-threat-playbook/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/cyber-threat-playbook)
 
-A comprehensive Cyber Threat Playbook providing MITRE ATT&CK-based attack scenarios, detection rules, proof-of-concept (PoC) scripts, and lab walkthroughs.
+Cyber Threat Playbook is an open-source, comprehensive cybersecurity playbook featuring MITRE ATT&CK attack simulations, detection engineering rules (Sigma, YARA, Suricata), PoC labs, and threat hunting workflows.
 
 ## About
 
@@ -17,14 +17,6 @@ It provides a structured collection of:
 
 This repository is designed to **demonstrate professional cybersecurity skills**, including threat hunting, incident response, and pentesting workflows, in a safe and controlled environment.
 
-## Features
-
-- MITRE ATT&CK–based attack scenarios
-- Sigma / YARA / Suricata detection rules
-- PoC examples for isolated lab environments
-- Log analysis samples
-- Threat hunting practice workflows
-
 ## Overview
 
 **Cyber Threat Playbook** is organized to give users a clear and practical view of real-world cybersecurity workflows:
@@ -34,6 +26,24 @@ This repository is designed to **demonstrate professional cybersecurity skills**
 - **Labs:** Hands-on lab exercises with PoC scripts for testing and research in isolated environments.  
 - **Examples:** Sample outputs, screenshots, and logs to visualize results.  
 - **Docs & Tools:** Quick Start guides, architecture explanations, and optional helper scripts to support learning and experimentation.  
+
+## Features
+
+- MITRE ATT&CK–based attack scenarios
+- Sigma / YARA / Suricata detection rules
+- PoC examples for isolated lab environments
+- Log analysis samples
+- Threat hunting practice workflows
+
+## Who Is This Playbook For
+
+The Cyber Threat Playbook is intended for cybersecurity expert who want to practice, analyze, and understand real-world cyber threats in a structured and controlled environment:
+
+- **SOC Analysts** – for detection engineering, alert analysis, and log investigation  
+- **Threat Hunters** – for hypothesis-driven hunting and adversary behavior analysis  
+- **Blue Team Engineers** – for building and testing detection rules (Sigma, YARA, Suricata)  
+- **Cybersecurity Students** – for hands-on learning and portfolio development  
+- **Red Teamers (lab-only)** – for adversary emulation and controlled attack simulations  
 
 ## Repository Structure
 
