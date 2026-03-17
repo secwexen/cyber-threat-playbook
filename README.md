@@ -3,7 +3,8 @@
 [![License](https://img.shields.io/github/license/secwexen/cyber-threat-playbook)](https://github.com/secwexen/cyber-threat-playbook/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/cyber-threat-playbook)
 
-Security Playbooks is an open-source, comprehensive cybersecurity playbooks featuring MITRE ATT&CK attack simulations, detection engineering rules (Sigma, YARA, Suricata), PoC labs, and threat hunting workflows.
+**Security Playbooks** is an open‑source, high‑quality cybersecurity repository featuring **MITRE ATT&CK attack simulations**, **detection engineering rules** (Sigma, YARA, Suricata), **incident response labs**, **log analysis workflows**, and **threat‑hunting playbooks**.  
+This project is designed for SOC analysts, blue teamers, threat hunters, and cybersecurity who want to build real‑world skills through hands‑on examples.
 
 ## About
 
