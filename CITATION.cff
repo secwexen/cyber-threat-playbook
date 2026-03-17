@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository in your research, please cite it."
-title: "Security Playbook"
+title: "Security Playbooks"
 authors:
   - name: "Secwexen"
 repository-code: "https://github.com/secwexen/security-playbooks"
