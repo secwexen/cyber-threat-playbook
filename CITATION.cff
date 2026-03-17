@@ -2,6 +2,5 @@ cff-version: 1.2.0
 message: "If you use this repository in your research, please cite it."
 title: "Cyber Threat Playbook"
 authors:
-  - family-names: "Secwexen"
-    given-names: "Lead Maintainer"
+  - name: "Secwexen"
 url: "https://github.com/secwexen/cyber-threat-playbook"
