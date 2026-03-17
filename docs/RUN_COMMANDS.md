@@ -17,6 +17,7 @@ yara detection-rules/yara/yara_powershell_payload.yar examples/powershell_log_ex
 ### Parser script with scenario logs
 
 ```
+python labs/lab2_log_analysis/parser.py examples/malware_log_example.txt
 python labs/lab2_log_analysis/parser.py examples/powershell_log_example.txt
 python labs/lab2_log_analysis/parser.py examples/phishing_log_example.txt
 ```
