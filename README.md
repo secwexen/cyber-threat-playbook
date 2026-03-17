@@ -142,6 +142,10 @@ For full details, see [DISCLAIMER.md](/DISCLAIMER.md).
 
 For guidance on safe usage and reporting vulnerabilities, see [SECURITY.md](/SECURITY.md).
 
+## Development Status
+
+**Security Playbooks** is currently in **Active Development** stage.
+
 ## Note
 
 Scripts, scenarios, and detection rules are for **educational and lab use only**.
