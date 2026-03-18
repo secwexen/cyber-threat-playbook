@@ -151,8 +151,3 @@ For guidance on safe usage and reporting vulnerabilities, see [SECURITY.md](/SEC
 ## Note
 
 Scripts, scenarios, and detection rules are for **educational and lab use only**.
-
-## Author
-
-**Secwexen** – Project Author, Lead & Maintainer    
-**GitHub:** [github.com/secwexen](https://github.com/secwexen)
