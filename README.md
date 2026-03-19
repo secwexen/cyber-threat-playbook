@@ -3,8 +3,8 @@
 **Official Website:** [https://secwexen.github.io/security-playbooks/](https://secwexen.github.io/security-playbooks/)
 
 [![CodeQL](https://github.com/secwexen/security-playbooks/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main&event=push)](https://github.com/secwexen/security-playbooks/actions/workflows/github-code-scanning/codeql)
-[![License](https://img.shields.io/github/license/secwexen/cyber-threat-playbook)](https://github.com/secwexen/cyber-threat-playbook/blob/main/LICENSE)
-[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/cyber-threat-playbook)
+[![License](https://img.shields.io/github/license/secwexen/security-playbooks)](https://github.com/secwexen/security-playbooks/blob/main/LICENSE)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/security-playbook)
 
 **Security Playbooks** is an open‑source, high‑quality cybersecurity repository featuring **MITRE ATT&CK attack simulations**, **detection engineering rules** (Sigma, YARA, Suricata), **incident response labs**, **log analysis workflows**, and **threat‑hunting playbooks**.  
 This project is designed for SOC analysts, blue teamers, threat hunters, and cybersecurity who want to build real‑world skills through hands‑on examples.
@@ -97,8 +97,8 @@ security-playbooks/
 ## Quick Start
 
 ```bash
-git clone https://github.com/secwexen/security-playbook.git
-cd security-playbook
+git clone https://github.com/secwexen/security-playbooks.git
+cd security-playbooks
 ```
 
 See the [quick_start.md](docs/quick_start.md) file for full details.
@@ -126,6 +126,16 @@ They are intended to be used for:
 - Lab experiments in isolated environments
 
 I do **not** endorse or support illegal activity of any kind.
+
+## Docs & Resources
+
+Detailed guides and references are also available in the repository:
+
+- [Quick Start](docs/quickstart.md)
+- [Roadmap & Milestones](docs/roadmap.md)
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [Changelog](CHANGELOG.md)
+- [Security Policy](SECURITY.md)
 
 ## License
 
@@ -160,3 +170,13 @@ For guidance on safe usage and reporting vulnerabilities, see [SECURITY.md](/SEC
 ## Note
 
 Scripts, scenarios, and detection rules are for **educational and lab use only**.
+
+## External References
+
+- **MITRE ATT&CK Framework** — [https://attack.mitre.org](https://attack.mitre.org)  
+- **NIST Cybersecurity Framework (CSF)** — [https://www.nist.gov/cyberframework](https://www.nist.gov/cyberframework)  
+- **OWASP Security Projects** — [https://owasp.org](https://owasp.org)  
+- **Microsoft Security Research & Threat Intelligence** — [https://www.microsoft.com/en-us/security/blog/](https://www.microsoft.com/en-us/security/blog/)  
+- **Google Red Team** — [https://redteam.google/](https://redteam.google/)  
+- **Elastic Security Labs** — [https://www.elastic.co/security-labs](https://www.elastic.co/security-labs)  
+- **Sigma HQ** — [https://github.com/SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)  
