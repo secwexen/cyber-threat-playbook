@@ -1,1 +1,20 @@
+# Normalize line endings
+* text=auto eol=lf
 
+# Treat these as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.exe binary
+*.dll binary
+
+# Improve diff for specific file types
+*.md diff=markdown
+*.yml diff=yaml
+*.yaml diff=yaml
+*.json diff=json
+
+# Linguist overrides (GitHub language stats)
+docs/* linguist-documentation=true
