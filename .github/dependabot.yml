@@ -5,9 +5,35 @@
 
 version: 2
 updates:
-  - package-ecosystem: "all" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "pip"
+    directory: "/"
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 10
     reviewers:
       - secwexen
+    labels:
+      - "dependencies"
+      - "backend"
+
+    commit-message:
+      prefix: "deps"
+      
+    groups:
+      security-fixes:
+        applies-to: security-updates
+        
+      python-libs:
+        patterns:
+          - "*"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    reviewers:
+      - secwexen
+    labels:
+      - "ci"
+      - "dependencies"
