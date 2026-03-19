@@ -5,7 +5,7 @@
 [![CodeQL](https://github.com/secwexen/security-playbooks/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main&event=push)](https://github.com/secwexen/security-playbooks/actions/workflows/github-code-scanning/codeql)
 [![Release](https://img.shields.io/github/v/release/secwexen/security-playbooks)](https://github.com/secwexen/security-playbooks/releases)
 [![License](https://img.shields.io/github/license/secwexen/security-playbooks)](https://github.com/secwexen/security-playbooks/blob/main/LICENSE)
-[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/security-playbook)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/security-playbooks)
 
 **Security Playbooks** is an open‑source, high‑quality cybersecurity repository featuring **MITRE ATT&CK attack simulations**, **detection engineering rules** (Sigma, YARA, Suricata), **incident response labs**, **log analysis workflows**, and **threat‑hunting playbooks**.  
 This project is designed for SOC analysts, blue teamers, threat hunters, and cybersecurity who want to build real‑world skills through hands‑on examples.
