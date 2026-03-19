@@ -3,6 +3,7 @@
 **Official Website:** [https://secwexen.github.io/security-playbooks/](https://secwexen.github.io/security-playbooks/)
 
 [![CodeQL](https://github.com/secwexen/security-playbooks/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main&event=push)](https://github.com/secwexen/security-playbooks/actions/workflows/github-code-scanning/codeql)
+[![Release](https://img.shields.io/github/v/release/secwexen/security-playbooks)](https://github.com/secwexen/security-playbooks/releases)
 [![License](https://img.shields.io/github/license/secwexen/security-playbooks)](https://github.com/secwexen/security-playbooks/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/security-playbook)
 
