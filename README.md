@@ -1,8 +1,6 @@
 # Security Playbooks
 
-<p align="center">
-<img src="assets/images/security-playbooks-logo.png" width="500" alt="Security Playbooks Logo" loading="lazy" decoding="async">
-</p>
+<img src="assets/images/security-playbooks-logo.png" width="600" alt="Security Playbooks Logo" loading="lazy" decoding="async">
 
 **Official Website:** [https://secwexen.github.io/security-playbooks/](https://secwexen.github.io/security-playbooks/)
 
