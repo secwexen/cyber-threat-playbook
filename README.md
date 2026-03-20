@@ -102,14 +102,14 @@ git clone https://github.com/secwexen/security-playbooks.git
 cd security-playbooks
 ```
 
-See the [quick_start.md](docs/quick_start.md) file for full details.
+See the [Quick Start](docs/quickstart.md) file for full details.
 
 ## Running the Examples
 
 This repository includes several educational scripts and detection rules.  
 Below are the commands used to run each component.
 
-See the [RUN_COMMANDS.md](docs/RUN_COMMANDS.md) file for full details.
+See the [RUN COMMANDS](docs/RUN_COMMANDS.md) file for full details.
 
 ### Quick Start (Single Command)
 
