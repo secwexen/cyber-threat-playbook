@@ -1,7 +1,10 @@
 # Security Playbooks
 
+<img src="assets/images/security-playbooks-logo.png" width="700" alt="Security Playbooks Logo" loading="lazy" decoding="async">
+
 **Official Website:** [https://secwexen.github.io/security-playbooks/](https://secwexen.github.io/security-playbooks/)
 
+[![CI](https://github.com/secwexen/security-playbooks/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/secwexen/security-playbooks/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/secwexen/security-playbooks/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main&event=push)](https://github.com/secwexen/security-playbooks/actions/workflows/github-code-scanning/codeql)
 [![Release](https://img.shields.io/github/v/release/secwexen/security-playbooks)](https://github.com/secwexen/security-playbooks/releases)
 [![License](https://img.shields.io/github/license/secwexen/security-playbooks)](https://github.com/secwexen/security-playbooks/blob/main/LICENSE)
@@ -102,14 +105,14 @@ git clone https://github.com/secwexen/security-playbooks.git
 cd security-playbooks
 ```
 
-See the [quick_start.md](docs/quick_start.md) file for full details.
+See the [Quick Start](docs/quickstart.md) file for full details.
 
 ## Running the Examples
 
 This repository includes several educational scripts and detection rules.  
 Below are the commands used to run each component.
 
-See the [RUN_COMMANDS.md](docs/RUN_COMMANDS.md) file for full details.
+See the [RUN COMMANDS](docs/RUN_COMMANDS.md) file for full details.
 
 ### Quick Start (Single Command)
 
