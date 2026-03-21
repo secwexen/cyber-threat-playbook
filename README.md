@@ -6,6 +6,7 @@
 
 [![CI](https://github.com/secwexen/security-playbooks/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/secwexen/security-playbooks/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/secwexen/security-playbooks/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main&event=push)](https://github.com/secwexen/security-playbooks/actions/workflows/github-code-scanning/codeql)
+[![Python Version](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
 [![Release](https://img.shields.io/github/v/release/secwexen/security-playbooks)](https://github.com/secwexen/security-playbooks/releases)
 [![License](https://img.shields.io/github/license/secwexen/security-playbooks)](https://github.com/secwexen/security-playbooks/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/security-playbooks)
@@ -86,23 +87,23 @@ The Security Playbooks is intended for cybersecurity expert who want to practice
 - **Cybersecurity Students** – for hands-on learning and portfolio development  
 - **Red Teamers (lab-only)** – for adversary emulation and controlled attack simulations  
 
-## Repository Structure
-
-```
-security-playbooks/
-├─ detection-rules/    # Sigma, YARA, Suricata rules for threat detection
-├─ scenarios/          # MITRE ATT&CK-based attack simulations
-├─ labs/               # PoC scripts and lab walkthroughs
-├─ examples/           # Sample outputs, logs, and screenshots
-├─ docs/               # Documentation and guides
-└─ tools/              # Helper scripts and parsers
-```
-
 ## Quick Start
 
 ```bash
+# Clone repo
 git clone https://github.com/secwexen/security-playbooks.git
 cd security-playbooks
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install dev dependencies
+pip install -r dev-requirements.txt
 ```
 
 See the [Quick Start](docs/quickstart.md) file for full details.
@@ -135,6 +136,7 @@ I do **not** endorse or support illegal activity of any kind.
 
 Detailed guides and references are also available in the repository:
 
+- [**Repository Structure**](docs/architecture.md)
 - [Quick Start](docs/quickstart.md)
 - [Roadmap & Milestones](docs/roadmap.md)
 - [Contributing Guidelines](CONTRIBUTING.md)
