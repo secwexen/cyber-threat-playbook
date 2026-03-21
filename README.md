@@ -104,23 +104,13 @@ pip install -r requirements.txt
 
 # Install dev dependencies
 pip install -r dev-requirements.txt
-```
 
-See the [Quick Start](docs/quickstart.md) file for full details.
-
-## Running the Examples
-
-This repository includes several educational scripts and detection rules.  
-Below are the commands used to run each component.
-
-See the [RUN COMMANDS](docs/RUN_COMMANDS.md) file for full details.
-
-### Quick Start (Single Command)
-
-To quickly test the project, run:
-```
+# To quickly test the project, run:
 python labs/lab2_log_analysis/parser.py examples/malware_log_example.txt
 ```
+
+See the [Quick Start](docs/quickstart.md) file for full details.  
+See the [RUN COMMANDS](docs/RUN_COMMANDS.md) file for full details.
 
 ## Ethical Use
 
