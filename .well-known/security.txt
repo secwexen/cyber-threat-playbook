@@ -1,0 +1,5 @@
+Contact: https://github.com/secwexen/secwexen.github.io/security-playbooks/security/advisories
+Preferred-Languages: en
+Canonical: https://secwexen.github.io/security-playbooks/.well-known/security.txt
+Policy: https://secwexen.github.io/security-playbooks/SECURITY.md
+Expires: 2027-01-01T00:00:00Z
