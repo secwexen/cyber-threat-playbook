@@ -5,13 +5,84 @@ The **Security Playbooks** is structured to provide a clear, modular, and profes
 ## Repository Structure
 
 ```
-security-playbooks/
-├─ detection-rules/    # Sigma, YARA, Suricata rules for threat detection
-├─ scenarios/          # MITRE ATT&CK-based attack simulations
-├─ labs/               # PoC scripts and lab walkthroughs
-├─ examples/           # Sample outputs, logs, and screenshots
-├─ docs/               # Documentation and guides
-└─ tools/              # Helper scripts and parsers
+security-playbooks
+├── .github/
+│   └── workflows/
+├── assets
+│   └── images/
+├── automation
+│   ├── integrations/
+│   └── scripts/
+├── workflows/
+├── cli/
+├── config/
+├── core/
+├── dashboards/
+├── deployments/
+│   ├── elastic/
+│   ├── sentinel/
+│   └── splunk/
+├── detection-rules/
+│   ├── mappings/
+│   ├── sigma/
+│   ├── suricata/
+│   └── yara/
+├── docs/
+│   └── architecture/
+├── examples/
+│   ├── alerts/
+│   ├── case-studies/
+│   ├── logs/
+│   └── lab-environment/
+│       ├── docker/
+│       └── setup-guides/
+├── terraform/
+├── labs/
+│   ├── lab1_network_scan/
+│   └── lab2_log_analysis/
+├── metrics/
+├── pipelines/
+├── playbooks/
+│   ├── execution/
+│   ├── exfiltration/
+│   ├── initial-access/
+│   └── lateral-movement/
+├── scenarios/
+│   ├── malware_analysis/
+│   └── phishing_simulation/
+├── schemas/
+├── tests/
+│   ├── detection_tests/
+│   ├── integration_tests/
+│   └── playbook_tests/
+├── threat-intel/
+│   ├── actors/
+│   ├── enrichment/
+│   └── ioc-feeds/
+├── tools/
+│   ├── parsers/
+│   └── utils/
+├── .editorconfig
+├── .env.example
+├── .gitattributes
+├── .gitignore
+├── .pre-commit-config.yaml
+├── CHANGELOG.md
+├── CITATION.cff
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── DISCLAIMER.md
+├── ETHICS.md
+├── LICENSE
+├── MAINTAINERS
+├── MANIFEST.in
+├── README.md
+├── SECURITY.md
+├── SUPPORT.md
+├── dev-requirements.txt
+├── pyproject.toml
+├── requirements.txt
+└── setup.cfg
 ```
 
 ## Key Components
