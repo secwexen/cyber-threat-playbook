@@ -182,10 +182,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 
 **Security Playbooks** is currently in **Active Development** stage.
 
-## Note
-
-Scripts, scenarios, and detection rules are for **educational and lab use only**.
-
 ## External References
 
 - **MITRE ATT&CK Framework** — [https://attack.mitre.org](https://attack.mitre.org)  
