@@ -111,8 +111,8 @@ pip install -r dev-requirements.txt
 python labs/lab2_log_analysis/parser.py examples/malware_log_example.txt
 ```
 
-See the [Quick Start](docs/quickstart.md) file for full details.  
-See the [RUN COMMANDS](docs/RUN_COMMANDS.md) file for full details.
+For full details, refer to the [Quick Start](docs/quickstart.md) file.  
+For complete command information, refer to the [RUN COMMANDS](docs/RUN_COMMANDS.md) file.
 
 ## Ethical Use
 
